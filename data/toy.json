@@ -19,7 +19,7 @@
     "_id": "118072",
     "name": "lego",
     "price": 18,
-    "labels": ["On wheels", "Outdoor", "Battery Powered", "Box game"],
+    "labels": ["Box game"],
     "createdAt": "1976-11-28T23:37:46.099Z",
     "inStock": true
   },
