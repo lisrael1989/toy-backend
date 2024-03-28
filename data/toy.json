@@ -4,19 +4,16 @@
     "price": 200,
     "labels": ["Art", "Baby"],
     "inStock": true,
-    "createdAt": "2024-03-27T06:32:56.827Z",
-    "_id": "JHUco"
+    "createdAt": "2024-03-27T06:32:56.827Z"
   },
   {
     "name": "doll",
     "price": 400,
     "labels": ["Battery Powered", "Box game"],
     "inStock": true,
-    "createdAt": "2024-03-26T16:29:17.719Z",
-    "_id": "gnMEj"
+    "createdAt": "2024-03-26T16:29:17.719Z"
   },
   {
-    "_id": "118072",
     "name": "lego",
     "price": 18,
     "labels": ["Box game"],
@@ -24,7 +21,6 @@
     "inStock": true
   },
   {
-    "_id": "118073",
     "name": "train",
     "price": 27,
     "labels": ["Art", "Doll", "Baby"],

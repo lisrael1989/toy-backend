@@ -1,0 +1,207 @@
+28.3.2024, 15:47:03 - INFO - server.js loaded... 
+28.3.2024, 15:47:03 - INFO - Server is running on port:4040 
+28.3.2024, 16:09:23 - INFO - Req was made | / 
+28.3.2024, 16:09:23 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+28.3.2024, 16:09:23 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:09:23 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+28.3.2024, 16:09:33 - ERROR - while finding toy :id | ReferenceError: logger is not defined 
+28.3.2024, 16:09:33 - ERROR - Failed to get toy | ReferenceError: logger is not defined 
+28.3.2024, 16:10:24 - INFO - server.js loaded... 
+28.3.2024, 16:10:24 - INFO - Server is running on port:4040 
+28.3.2024, 16:11:20 - INFO - server.js loaded... 
+28.3.2024, 16:11:20 - INFO - Server is running on port:4040 
+28.3.2024, 16:11:29 - ERROR - while finding toy :id | ReferenceError: logger is not defined 
+28.3.2024, 16:11:29 - ERROR - Failed to get toy | ReferenceError: logger is not defined 
+28.3.2024, 16:11:33 - INFO - Req was made | / 
+28.3.2024, 16:11:33 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:11:33 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+28.3.2024, 16:11:33 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+28.3.2024, 16:14:55 - INFO - Req was made | / 
+28.3.2024, 16:14:55 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:14:55 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+28.3.2024, 16:14:55 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+28.3.2024, 16:15:58 - INFO - server.js loaded... 
+28.3.2024, 16:15:58 - INFO - Server is running on port:4040 
+28.3.2024, 16:20:57 - INFO - Req was made | / 
+28.3.2024, 16:20:57 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:20:58 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+28.3.2024, 16:20:58 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+28.3.2024, 16:21:18 - INFO - Req was made | / 
+28.3.2024, 16:21:18 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:21:18 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+28.3.2024, 16:21:18 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+28.3.2024, 16:24:51 - INFO - server.js loaded... 
+28.3.2024, 16:24:51 - INFO - Server is running on port:4040 
+28.3.2024, 16:25:37 - INFO - server.js loaded... 
+28.3.2024, 16:25:38 - INFO - Server is running on port:4040 
+28.3.2024, 16:25:46 - INFO - Req was made | / 
+28.3.2024, 16:25:46 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:26:07 - INFO - Req was made | / 
+28.3.2024, 16:26:07 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:38:04 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:38:04 - INFO - Req was made | / 
+28.3.2024, 16:38:29 - INFO - Req was made | / 
+28.3.2024, 16:38:29 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:40:01 - INFO - Req was made | / 
+28.3.2024, 16:40:01 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:40:01 - INFO - Req was made | / 
+28.3.2024, 16:40:01 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 16:49:22 - ERROR - Failed to get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+28.3.2024, 16:49:22 - ERROR - while finding toy :id | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+28.3.2024, 16:57:04 - INFO - server.js loaded... 
+28.3.2024, 16:57:04 - INFO - Server is running on port:4040 
+28.3.2024, 16:58:37 - INFO - server.js loaded... 
+28.3.2024, 16:58:37 - INFO - Server is running on port:4040 
+28.3.2024, 17:03:27 - INFO - server.js loaded... 
+28.3.2024, 17:03:27 - INFO - Server is running on port:4040 
+28.3.2024, 17:03:31 - INFO - Req was made | / 
+28.3.2024, 17:03:31 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 17:05:23 - INFO - server.js loaded... 
+28.3.2024, 17:05:23 - INFO - Server is running on port:4040 
+28.3.2024, 17:28:13 - DEBUG - auth.service - login with username: undefined 
+28.3.2024, 17:28:13 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:31:46 - DEBUG - auth.service - login with username: israel 
+28.3.2024, 17:31:46 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:31:53 - DEBUG - auth.service - login with username: israel 
+28.3.2024, 17:31:53 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:32:41 - DEBUG - auth.service - login with username: israel 
+28.3.2024, 17:32:41 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:33:15 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:33:15 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:33:38 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:33:38 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:34:15 - DEBUG - auth.service - signup with username: admin, fullname: undefined 
+28.3.2024, 17:34:15 - ERROR - Failed to signup Error: Missing details 
+28.3.2024, 17:35:11 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+28.3.2024, 17:35:11 - ERROR - cannot insert user | Error: Username taken 
+28.3.2024, 17:35:11 - ERROR - Failed to signup Error: Username taken 
+28.3.2024, 17:41:30 - DEBUG - auth.service - signup with username: admin, fullname: admin 
+28.3.2024, 17:41:30 - ERROR - cannot insert user | Error: Username taken 
+28.3.2024, 17:41:30 - ERROR - Failed to signup Error: Username taken 
+28.3.2024, 17:43:04 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:43:04 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:44:05 - INFO - Server is running on port:4040 
+28.3.2024, 17:44:05 - INFO - server.js loaded... 
+28.3.2024, 17:44:10 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:44:10 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:44:37 - INFO - server.js loaded... 
+28.3.2024, 17:44:37 - INFO - Server is running on port:4040 
+28.3.2024, 17:44:42 - INFO - server.js loaded... 
+28.3.2024, 17:44:43 - INFO - Server is running on port:4040 
+28.3.2024, 17:45:09 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:45:09 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:45:41 - INFO - server.js loaded... 
+28.3.2024, 17:45:41 - INFO - Server is running on port:4040 
+28.3.2024, 17:46:07 - INFO - server.js loaded... 
+28.3.2024, 17:46:07 - INFO - Server is running on port:4040 
+28.3.2024, 17:46:14 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:46:15 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:47:02 - INFO - server.js loaded... 
+28.3.2024, 17:47:02 - INFO - Server is running on port:4040 
+28.3.2024, 17:47:21 - INFO - server.js loaded... 
+28.3.2024, 17:47:21 - INFO - Server is running on port:4040 
+28.3.2024, 17:47:29 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:47:29 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:49:20 - INFO - server.js loaded... 
+28.3.2024, 17:49:21 - INFO - Server is running on port:4040 
+28.3.2024, 17:49:25 - DEBUG - auth.service - login with username: admin 
+28.3.2024, 17:49:25 - ERROR - Failed to Login Error: Invalid username or password 
+28.3.2024, 17:50:45 - INFO - server.js loaded... 
+28.3.2024, 17:50:45 - INFO - Server is running on port:4040 
+28.3.2024, 17:56:22 - DEBUG - auth.service - signup with username: yossi, fullname: yossi 
+28.3.2024, 17:56:23 - DEBUG - auth.route - new account created: {"username":"yossi","password":"$2b$10$SnnAglmzMsMp7bGMaw3BA.msNHl6/LnD3Y/JAW8AUpw7nlnbnsndy","fullname":"yossi","score":0,"_id":"6605932730a56d248081445c"} 
+28.3.2024, 17:56:23 - DEBUG - auth.service - login with username: yossi 
+28.3.2024, 17:58:48 - DEBUG - auth.service - login with username: yossi 
+28.3.2024, 17:58:49 - INFO - User login:  | {"_id":"6605932730a56d248081445c","username":"yossi","fullname":"yossi","score":0} 
+28.3.2024, 18:00:13 - INFO - server.js loaded... 
+28.3.2024, 18:00:13 - INFO - Server is running on port:4040 
+28.3.2024, 18:00:27 - INFO - Server is running on port:4040 
+28.3.2024, 18:00:27 - INFO - server.js loaded... 
+28.3.2024, 18:02:05 - INFO - server.js loaded... 
+28.3.2024, 18:02:05 - INFO - Server is running on port:4040 
+28.3.2024, 18:02:55 - DEBUG - auth.service - signup with username: israel, fullname: israel 
+28.3.2024, 18:02:55 - DEBUG - auth.route - new account created: {"username":"israel","password":"$2b$10$8rkuwHnnE2Ja4ugWJwAfDeW7./WPoN.1JIcX2X1u7fEkNjC7n7Q9u","fullname":"israel","isAdmin":true,"_id":"660594af9c95944b64d2b17c"} 
+28.3.2024, 18:02:55 - DEBUG - auth.service - login with username: israel 
+28.3.2024, 18:06:56 - INFO - Req was made | / 
+28.3.2024, 18:06:56 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:15:13 - ERROR - cannot add toy msg 66057fdc1770dbca9a025e0 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+28.3.2024, 18:15:14 - ERROR - Failed to update toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+28.3.2024, 18:29:13 - DEBUG - auth.service - signup with username: aliko, fullname: aliko 
+28.3.2024, 18:29:13 - DEBUG - auth.route - new account created: {"username":"aliko","password":"$2b$10$wdlAeW2tNgRpgSPpvY0MwOud2KLtc6yLfvXnqeGVDevpAp6rWYSkq","fullname":"aliko","isAdmin":true,"_id":"66059ad99c95944b64d2b17f"} 
+28.3.2024, 18:29:13 - DEBUG - auth.service - login with username: aliko 
+28.3.2024, 18:33:23 - INFO - server.js loaded... 
+28.3.2024, 18:33:23 - INFO - Server is running on port:4040 
+28.3.2024, 18:35:35 - INFO - Req was made | / 
+28.3.2024, 18:35:35 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:35:37 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:35:37 - INFO - Req was made | / 
+28.3.2024, 18:36:05 - INFO - Req was made | / 
+28.3.2024, 18:36:05 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:36:10 - INFO - Req was made | / 
+28.3.2024, 18:36:10 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:36:10 - INFO - Req was made | / 
+28.3.2024, 18:36:10 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:36:16 - INFO - Req was made | / 
+28.3.2024, 18:36:16 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:36:22 - INFO - Req was made | / 
+28.3.2024, 18:36:22 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 18:36:27 - INFO - Req was made | / 
+28.3.2024, 18:36:27 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:05:07 - INFO - Req was made | / 
+28.3.2024, 19:05:07 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:05:08 - INFO - Req was made | / 
+28.3.2024, 19:05:08 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:05:30 - INFO - Req was made | / 
+28.3.2024, 19:05:30 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:05:30 - INFO - Req was made | / 
+28.3.2024, 19:05:30 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:56:20 - INFO - Req was made | / 
+28.3.2024, 19:56:20 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:56:20 - INFO - Req was made | / 
+28.3.2024, 19:56:20 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:58:30 - INFO - Req was made | / 
+28.3.2024, 19:58:30 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 19:58:32 - INFO - Req was made | / 
+28.3.2024, 19:58:32 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:00:40 - INFO - Req was made | / 
+28.3.2024, 20:00:40 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:01:04 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:01:04 - INFO - Req was made | / 
+28.3.2024, 20:01:04 - INFO - Req was made | / 
+28.3.2024, 20:01:04 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:01:18 - INFO - Req was made | / 
+28.3.2024, 20:01:18 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:01:29 - INFO - Req was made | / 
+28.3.2024, 20:01:29 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:01:48 - INFO - Req was made | / 
+28.3.2024, 20:01:48 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:14 - INFO - Req was made | / 
+28.3.2024, 20:16:14 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:14 - INFO - Req was made | / 
+28.3.2024, 20:16:14 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:26 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:26 - INFO - Req was made | / 
+28.3.2024, 20:16:26 - INFO - Req was made | / 
+28.3.2024, 20:16:26 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:29 - INFO - Req was made | / 
+28.3.2024, 20:16:29 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:31 - INFO - Req was made | / 
+28.3.2024, 20:16:31 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:34 - INFO - Req was made | / 
+28.3.2024, 20:16:34 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:36 - INFO - Req was made | / 
+28.3.2024, 20:16:36 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:37 - INFO - Req was made | / 
+28.3.2024, 20:16:37 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:38 - INFO - Req was made | / 
+28.3.2024, 20:16:38 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:39 - INFO - Req was made | / 
+28.3.2024, 20:16:39 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:44 - INFO - Req was made | / 
+28.3.2024, 20:16:44 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:16:44 - INFO - Req was made | / 
+28.3.2024, 20:16:44 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:21:10 - DEBUG - Getting Toys | {"txt":""} 
+28.3.2024, 20:21:10 - INFO - Req was made | / 
+28.3.2024, 20:21:10 - INFO - Req was made | / 
+28.3.2024, 20:21:10 - DEBUG - Getting Toys | {"txt":""} 
