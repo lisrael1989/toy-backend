@@ -15,13 +15,45 @@ export const toyService = {
   removeToyMsg,
 }
 
-async function query(filterBy = { txt: "" }) {
+// async function query(filterBy = {}) {
+//   try {
+//     const criteria = {
+//       name: { $regex: filterBy.txt, $options: "i" },
+//     }
+//     const collection = await dbService.getCollection("toy")
+//     var toys = await collection.find(criteria).toArray()
+//     return toys
+//   } catch (err) {
+//     logger.error("cannot find toys", err)
+//     throw err
+//   }
+// }
+
+async function query(filterBy = {}) {
   try {
+    // Convert string 'true'/'false' to boolean, or default to including both
+    const inStock =
+      filterBy.inStock === "true"
+        ? true
+        : filterBy.inStock === "false"
+        ? false
+        : { $in: [true, false] }
+
+    // Handle labels, ensuring it can accept both single string or an array of strings
+    const labelsCriteria = filterBy.labels ? { $in: [].concat(filterBy.labels) } : { $exists: true }
+
     const criteria = {
-      name: { $regex: filterBy.txt, $options: "i" },
+      name: { $regex: filterBy.txt || "", $options: "i" },
+      price: { $gte: parseInt(filterBy.minPrice) || 0 },
+      inStock: inStock,
+      labels: labelsCriteria,
     }
+
+    // Add sort logic, defaulting to name ascending
+    const sort = { [filterBy.sortBy || "name"]: filterBy.asc === "true" ? 1 : -1 }
+
     const collection = await dbService.getCollection("toy")
-    var toys = await collection.find(criteria).toArray()
+    var toys = await collection.find(criteria).sort(sort).toArray()
     return toys
   } catch (err) {
     logger.error("cannot find toys", err)
@@ -97,4 +129,16 @@ async function removeToyMsg(toyId, msgId) {
     logger.error(`cannot add toy msg ${toyId}`, err)
     throw err
   }
+}
+
+function _buildCriteria(filterBy) {
+  const criteria = {}
+  if (filterBy.txt) {
+    criteria.name = { $regex: filterBy.txt, $options: "i" }
+  }
+  if (filterBy.minPrice) {
+    criteria.price = { $gte: +filterBy.minPrice }
+  }
+
+  return criteria
 }
