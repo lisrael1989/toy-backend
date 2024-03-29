@@ -764,3 +764,83 @@
 29.3.2024, 17:58:26 - DEBUG - Getting Toys | {"params":{"filterBy":{"name":"","price":"","txt":"box"},"sort":{"by":"price","asc":"true"}}} 
 29.3.2024, 17:58:29 - INFO - Req was made | / 
 29.3.2024, 17:58:29 - DEBUG - Getting Toys | {"params":{"filterBy":{"name":"","price":"","txt":""},"sort":{"by":"price","asc":"true"}}} 
+29.3.2024, 18:07:33 - INFO - Req was made | / 
+29.3.2024, 18:07:33 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","by":"name","asc":"true"}} 
+29.3.2024, 18:07:33 - INFO - Req was made | / 
+29.3.2024, 18:07:33 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","by":"name","asc":"true"}} 
+29.3.2024, 18:07:35 - INFO - Req was made | / 
+29.3.2024, 18:07:35 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"b","by":"name","asc":"true"}} 
+29.3.2024, 18:07:37 - INFO - Req was made | / 
+29.3.2024, 18:07:37 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"bo","by":"name","asc":"true"}} 
+29.3.2024, 18:07:37 - INFO - Req was made | / 
+29.3.2024, 18:07:37 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"box","by":"name","asc":"true"}} 
+29.3.2024, 18:09:40 - INFO - Req was made | / 
+29.3.2024, 18:09:40 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"box","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:09:45 - INFO - Req was made | / 
+29.3.2024, 18:09:45 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","by":"name","asc":"true"}} 
+29.3.2024, 18:09:46 - INFO - Req was made | / 
+29.3.2024, 18:09:46 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:09:56 - INFO - Req was made | / 
+29.3.2024, 18:09:56 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","by":"name","asc":"true"}} 
+29.3.2024, 18:09:58 - INFO - Req was made | / 
+29.3.2024, 18:09:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:06 - DEBUG - auth.service - login with username: israel 
+29.3.2024, 18:10:06 - INFO - User login:  | {"_id":"660594af9c95944b64d2b17c","username":"israel","fullname":"israel","isAdmin":true} 
+29.3.2024, 18:10:10 - INFO - Req was made | / 
+29.3.2024, 18:10:10 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"b","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:10 - INFO - Req was made | / 
+29.3.2024, 18:10:10 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"bo","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:10 - INFO - Req was made | / 
+29.3.2024, 18:10:10 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"box","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:20 - INFO - Req was made | / 
+29.3.2024, 18:10:20 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:43 - INFO - Req was made | / 
+29.3.2024, 18:10:43 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"1","by":"name","asc":"true"}} 
+29.3.2024, 18:10:44 - INFO - Req was made | / 
+29.3.2024, 18:10:44 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"10","by":"name","asc":"true"}} 
+29.3.2024, 18:10:44 - INFO - Req was made | / 
+29.3.2024, 18:10:44 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"100","by":"name","asc":"true"}} 
+29.3.2024, 18:10:51 - INFO - Req was made | / 
+29.3.2024, 18:10:51 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:52 - INFO - Req was made | / 
+29.3.2024, 18:10:52 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"true","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:55 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:55 - INFO - Req was made | / 
+29.3.2024, 18:10:57 - INFO - Req was made | / 
+29.3.2024, 18:10:57 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:10:58 - INFO - Req was made | / 
+29.3.2024, 18:10:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"true"}} 
+29.3.2024, 18:10:58 - INFO - Req was made | / 
+29.3.2024, 18:10:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"false"}} 
+29.3.2024, 18:11:00 - INFO - Req was made | / 
+29.3.2024, 18:11:00 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"true"}} 
+29.3.2024, 18:11:01 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"false"}} 
+29.3.2024, 18:11:01 - INFO - Req was made | / 
+29.3.2024, 18:12:06 - INFO - Req was made | / 
+29.3.2024, 18:12:06 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"false"}} 
+29.3.2024, 18:12:32 - INFO - Req was made | / 
+29.3.2024, 18:12:32 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"false"}} 
+29.3.2024, 18:12:38 - INFO - Req was made | / 
+29.3.2024, 18:12:38 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"false","txt":"","minPrice":"","by":"price","asc":"false"}} 
+29.3.2024, 18:12:45 - INFO - Req was made | / 
+29.3.2024, 18:12:45 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","by":"name","asc":"true"}} 
+29.3.2024, 18:12:46 - INFO - Req was made | / 
+29.3.2024, 18:12:46 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:12:52 - INFO - Req was made | / 
+29.3.2024, 18:12:52 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"1","by":"name","asc":"true"}} 
+29.3.2024, 18:12:52 - INFO - Req was made | / 
+29.3.2024, 18:12:52 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"10","by":"name","asc":"true"}} 
+29.3.2024, 18:12:52 - INFO - Req was made | / 
+29.3.2024, 18:12:52 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"100","by":"name","asc":"true"}} 
+29.3.2024, 18:12:55 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:12:55 - INFO - Req was made | / 
+29.3.2024, 18:12:58 - INFO - Req was made | / 
+29.3.2024, 18:12:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"b","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:12:58 - INFO - Req was made | / 
+29.3.2024, 18:12:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"bo","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:12:58 - INFO - Req was made | / 
+29.3.2024, 18:12:58 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"box","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:13:00 - INFO - Req was made | / 
+29.3.2024, 18:13:00 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"bo","minPrice":"","by":"name","asc":"true"}} 
+29.3.2024, 18:13:04 - INFO - Req was made | / 
+29.3.2024, 18:13:04 - DEBUG - Getting Toys | {"params":{"name":"","price":"","inStock":"","txt":"","minPrice":"","by":"name","asc":"true"}} 
