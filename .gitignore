@@ -2,3 +2,72 @@ node_modules
 public/assets/doll-B-antq6r.png
 public/assets/doll-B-antq6r.png
 public/assets/doll-B-antq6r.png
+
+
+
+servcer to backup:
+// app.get("/api/toy", (req, res) => {
+//   const { filterBy = {}, sort = {} } = req.query.params
+
+//   toyService
+//     .query(filterBy, sort)
+//     .then((toys) => {
+//       res.send(toys)
+//     })
+//     .catch((err) => {
+//       console.log("Had issues getting toys", err)
+//       res.status(400).send({ msg: "Had issues getting toys" })
+//     })
+// })
+
+// app.get("/api/toy/:id", (req, res) => {
+//   const toyId = req.params.id
+//   toyService
+//     .getById(toyId)
+//     .then((toy) => {
+//       res.send(toy)
+//     })
+//     .catch((err) => {
+//       console.log("Had issues getting toy", err)
+//       res.status(400).send({ msg: "Had issues getting toy" })
+//     })
+// })
+
+// app.delete("/api/toy/:id", (req, res) => {
+//   const toyId = req.params.id
+//   toyService
+//     .remove(toyId)
+//     .then(() => {
+//       res.end("Done!")
+//     })
+//     .catch((err) => {
+//       console.log("Had issues deleting toy", err)
+//       res.status(400).send({ msg: "Had issues deleteing toy" })
+//     })
+// })
+
+// app.post("/api/toy", (req, res) => {
+//   const toy = req.body
+//   toyService
+//     .save(toy)
+//     .then((savedToy) => {
+//       res.send(savedToy)
+//     })
+//     .catch((err) => {
+//       console.log("Had issues adding toy", err)
+//       res.status(400).send({ msg: "Had issues adding toy" })
+//     })
+// })
+
+// app.put("/api/toy/:id", (req, res) => {
+//   const toy = req.body
+//   toyService
+//     .save(toy)
+//     .then((savedToy) => {
+//       res.send(savedToy)
+//     })
+//     .catch((err) => {
+//       console.log("Had issues updating toy", err)
+//       res.status(400).send({ msg: "Had issues updating toy" })
+//     })
+// })

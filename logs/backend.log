@@ -540,3 +540,109 @@
 29.3.2024, 13:06:56 - DEBUG - Getting Toys | {"txt":""} 
 29.3.2024, 13:06:56 - INFO - Req was made | / 
 29.3.2024, 13:06:56 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 13:37:59 - INFO - server.js loaded... 
+29.3.2024, 13:37:59 - INFO - Server is running on port:4040 
+29.3.2024, 13:54:47 - INFO - Req was made | / 
+29.3.2024, 13:54:47 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 13:54:48 - INFO - Req was made | / 
+29.3.2024, 13:54:48 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 14:39:38 - INFO - Req was made | / 
+29.3.2024, 14:39:38 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 14:39:38 - INFO - Req was made | / 
+29.3.2024, 14:39:38 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:43:40 - INFO - Req was made | / 
+29.3.2024, 15:43:40 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:43:41 - INFO - Req was made | / 
+29.3.2024, 15:43:41 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:53:26 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:53:26 - INFO - Req was made | / 
+29.3.2024, 15:53:27 - INFO - Req was made | / 
+29.3.2024, 15:53:27 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:53:58 - INFO - Req was made | / 
+29.3.2024, 15:53:58 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:53:59 - INFO - Req was made | / 
+29.3.2024, 15:53:59 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:54:05 - INFO - Req was made | / 
+29.3.2024, 15:54:05 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:54:06 - INFO - Req was made | / 
+29.3.2024, 15:54:06 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:54:21 - INFO - Req was made | / 
+29.3.2024, 15:54:21 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:54:22 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:54:22 - INFO - Req was made | / 
+29.3.2024, 15:54:30 - DEBUG - auth.service - login with username: israel 
+29.3.2024, 15:54:30 - INFO - User login:  | {"_id":"660594af9c95944b64d2b17c","username":"israel","fullname":"israel","isAdmin":true} 
+29.3.2024, 15:58:14 - INFO - Req was made | / 
+29.3.2024, 15:58:14 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:58:14 - INFO - Req was made | / 
+29.3.2024, 15:58:14 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:58:30 - INFO - Req was made | / 
+29.3.2024, 15:58:30 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:58:30 - INFO - Req was made | / 
+29.3.2024, 15:58:30 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:59:14 - INFO - Req was made | / 
+29.3.2024, 15:59:14 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 15:59:14 - INFO - Req was made | / 
+29.3.2024, 15:59:14 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:00:00 - INFO - Req was made | / 
+29.3.2024, 16:00:00 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:00:01 - INFO - Req was made | / 
+29.3.2024, 16:00:01 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:09:18 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:09:18 - INFO - Req was made | / 
+29.3.2024, 16:09:19 - INFO - Req was made | / 
+29.3.2024, 16:09:19 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:36:31 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:36:31 - INFO - Req was made | / 
+29.3.2024, 16:36:31 - INFO - Req was made | / 
+29.3.2024, 16:36:31 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:36:42 - INFO - Req was made | / 
+29.3.2024, 16:36:42 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:36:42 - INFO - Req was made | / 
+29.3.2024, 16:36:42 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:55:03 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:55:03 - INFO - Req was made | / 
+29.3.2024, 16:55:03 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:55:03 - INFO - Req was made | / 
+29.3.2024, 16:57:40 - INFO - Req was made | / 
+29.3.2024, 16:57:40 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:57:48 - INFO - Req was made | / 
+29.3.2024, 16:57:48 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 16:57:56 - INFO - Req was made | / 
+29.3.2024, 16:57:56 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:04:50 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:04:50 - INFO - Req was made | / 
+29.3.2024, 17:04:50 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:04:50 - INFO - Req was made | / 
+29.3.2024, 17:16:48 - INFO - Req was made | / 
+29.3.2024, 17:16:48 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:16:49 - INFO - Req was made | / 
+29.3.2024, 17:16:49 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:05 - INFO - Req was made | / 
+29.3.2024, 17:17:05 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:06 - INFO - Req was made | / 
+29.3.2024, 17:17:06 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:07 - INFO - Req was made | / 
+29.3.2024, 17:17:07 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:15 - INFO - Req was made | / 
+29.3.2024, 17:17:15 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:26 - INFO - Req was made | / 
+29.3.2024, 17:17:26 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:17:26 - INFO - Req was made | / 
+29.3.2024, 17:17:26 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:06 - INFO - Req was made | / 
+29.3.2024, 17:18:06 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:06 - INFO - Req was made | / 
+29.3.2024, 17:18:06 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:37 - INFO - Req was made | / 
+29.3.2024, 17:18:37 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:37 - INFO - Req was made | / 
+29.3.2024, 17:18:37 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:46 - INFO - Req was made | / 
+29.3.2024, 17:18:46 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:18:46 - INFO - Req was made | / 
+29.3.2024, 17:18:46 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:19:01 - DEBUG - Getting Toys | {"txt":""} 
+29.3.2024, 17:19:01 - INFO - Req was made | / 
+29.3.2024, 17:19:01 - INFO - Req was made | / 
+29.3.2024, 17:19:01 - DEBUG - Getting Toys | {"txt":""} 
