@@ -1,23 +1,11 @@
 import { toyService } from "./toy.service.js"
 import { logger } from "../../services/logger.service.js"
 
-// export async function getToys(req, res) {
-//   try {
-//     const filterBy = {
-//       txt: req.query.txt || "",
-//     }
-//     logger.debug("Getting Toys", filterBy)
-//     const toys = await toyService.query(filterBy)
-//     res.json(toys)
-//   } catch (err) {
-//     logger.error("Failed to get toys", err)
-//     res.status(500).send({ err: "Failed to get toys" })
-//   }
-// }
-
 export async function getToys(req, res) {
   try {
-    const filterBy = req.query
+    const filterBy = {
+      txt: req.query.txt || "",
+    }
     logger.debug("Getting Toys", filterBy)
     const toys = await toyService.query(filterBy)
     res.json(toys)
