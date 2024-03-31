@@ -5,9 +5,17 @@ export async function getToys(req, res) {
   try {
     const filterBy = {
       txt: req.query.txt || "",
+      status: req.query.inStock || null,
+      labels: req.query.byLablel || null,
     }
+    const sortBy = req.query.sortBy
+      ? {
+          [req.query.sortBy]: 1,
+        }
+      : {}
+
     logger.debug("Getting Toys", filterBy)
-    const toys = await toyService.query(filterBy)
+    const toys = await toyService.query(filterBy, sortBy)
     res.json(toys)
   } catch (err) {
     logger.error("Failed to get toys", err)
@@ -64,11 +72,12 @@ export async function removeToy(req, res) {
 
 export async function addToyMsg(req, res) {
   const { loggedinUser } = req
+  const { _id, fullname } = loggedinUser
   try {
     const toyId = req.params.id
     const msg = {
       txt: req.body.txt,
-      by: loggedinUser,
+      by: { _id, fullname },
     }
     const savedMsg = await toyService.addToyMsg(toyId, msg)
     res.json(savedMsg)

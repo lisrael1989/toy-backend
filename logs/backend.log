@@ -1094,3 +1094,13 @@
 31.3.2024, 21:09:16 - INFO - User login:  | {"_id":"660594af9c95944b64d2b17c","username":"israel","fullname":"israel","isAdmin":true} 
 31.3.2024, 21:15:28 - DEBUG - auth.service - login with username: israel 
 31.3.2024, 21:15:28 - INFO - User login:  | {"_id":"660594af9c95944b64d2b17c","username":"israel","fullname":"israel","isAdmin":true} 
+31.3.2024, 21:46:56 - INFO - server.js loaded... 
+31.3.2024, 21:46:56 - INFO - Server is running on port:4040 
+31.3.2024, 21:47:52 - INFO - server.js loaded... 
+31.3.2024, 21:47:52 - INFO - Server is running on port:4040 
+31.3.2024, 21:48:52 - INFO - server.js loaded... 
+31.3.2024, 21:48:52 - INFO - Server is running on port:4040 
+31.3.2024, 21:50:08 - INFO - Req was made | / 
+31.3.2024, 21:50:08 - DEBUG - Getting Toys | {"txt":""} 
+31.3.2024, 21:50:08 - INFO - Req was made | / 
+31.3.2024, 21:50:08 - DEBUG - Getting Toys | {"txt":""} 

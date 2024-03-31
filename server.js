@@ -1,9 +1,8 @@
+import path, { dirname } from "path"
+import { fileURLToPath } from "url"
 import express from "express"
 import cookieParser from "cookie-parser"
 import cors from "cors"
-import path, { dirname } from "path"
-import { fileURLToPath } from "url"
-// import { toyService } from "./services/toy.service.js"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -46,7 +45,6 @@ app.use("/api/toy", toyRoutes)
 app.get("/**", (req, res) => {
   res.sendFile(path.resolve("public/index.html"))
 })
-
 
 const port = process.env.PORT || 4040
 app.listen(port, () => {

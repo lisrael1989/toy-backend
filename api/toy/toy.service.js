@@ -15,13 +15,31 @@ export const toyService = {
   removeToyMsg,
 }
 
-async function query(filterBy = {}) {
+// async function query(filterBy = {}) {
+//   try {
+//     const criteria = {
+//       name: { $regex: filterBy.txt, $options: "i" },
+//     }
+//     const collection = await dbService.getCollection("toy")
+//     var toys = await collection.find(criteria).toArray()
+//     return toys
+//   } catch (err) {
+//     logger.error("cannot find toys", err)
+//     throw err
+//   }
+// }
+async function query(filterBy, sortBy) {
   try {
-    const criteria = {
-      name: { $regex: filterBy.txt, $options: "i" },
-    }
+    console.log("filterBy", filterBy)
+    const criteria = _buildCriteria(filterBy)
+    console.log(criteria)
     const collection = await dbService.getCollection("toy")
-    var toys = await collection.find(criteria).toArray()
+    //sort({price:1}) from low to high
+    //sort({name:1}) from a to z //sort({key:order})
+    console.log("sortBy", sortBy)
+
+    const toys = await collection.find(criteria).sort(sortBy).toArray()
+    // console.log('toys', toys)
     return toys
   } catch (err) {
     logger.error("cannot find toys", err)
@@ -29,34 +47,7 @@ async function query(filterBy = {}) {
   }
 }
 
-// async function query(filterBy = {}) {
-//   try {
-//     const inStock =
-//       filterBy.inStock === "true"
-//         ? true
-//         : filterBy.inStock === "false"
-//         ? false
-//         : { $in: [true, false] }
-
-//     const labelsCriteria = filterBy.labels ? { $in: [].concat(filterBy.labels) } : { $exists: true }
-
-//     const criteria = {
-//       name: { $regex: filterBy.txt || "", $options: "i" },
-//       price: { $gte: parseInt(filterBy.minPrice) || 0 },
-//       inStock: inStock,
-//       labels: labelsCriteria,
-//     }
-
-//     const sort = { [filterBy.sortBy || "name"]: filterBy.asc === "true" ? 1 : -1 }
-
-//     const collection = await dbService.getCollection("toy")
-//     var toys = await collection.find(criteria).sort(sort).toArray()
-//     return toys
-//   } catch (err) {
-//     logger.error("cannot find toys", err)
-//     throw err
-//   }
-// }
+/*------*/
 
 async function getById(toyId) {
   try {
@@ -130,14 +121,37 @@ async function removeToyMsg(toyId, msgId) {
   }
 }
 
-// function _buildCriteria(filterBy) {
-//   const criteria = {}
-//   if (filterBy.txt) {
-//     criteria.name = { $regex: filterBy.txt, $options: "i" }
-//   }
-//   if (filterBy.minPrice) {
-//     criteria.price = { $gte: +filterBy.minPrice }
-//   }
+function _buildCriteria(filterBy) {
+  const { labels, txt, status } = filterBy
 
-//   return criteria
-// }
+  const criteria = {}
+
+  if (txt) {
+    criteria.name = { $regex: txt, $options: "i" }
+  }
+
+  if (labels && labels.length) {
+    //every for objects labels
+    // const labelsCrit = labels.map(label => ({
+    //   labels: { $elemMatch: { title: label } },
+    // }))
+
+    //every for string labels
+    // const labelsCrit = labels.map((label) => ({
+    // 	labels: label,
+    // }))
+    // criteria.$and = labelsCrit
+    // criteria.labels =  { $all: labels }
+
+    // for some for string labels
+    console.log("labels", labels)
+    criteria.labels = { $in: labels } //['Doll']
+  }
+
+  if (status) {
+    criteria.inStock = status === "true" ? true : false // ? true : false
+  }
+  console.log("criteria", criteria)
+
+  return criteria
+}
