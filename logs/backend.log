@@ -942,3 +942,5 @@
 31.3.2024, 8:24:35 - DEBUG - Getting Toys | {"params":{"filterBy":{"name":"","price":"","inStock":""},"sort":{"by":"name","asc":"true"}}} 
 31.3.2024, 8:24:35 - INFO - Req was made | / 
 31.3.2024, 8:24:35 - DEBUG - Getting Toys | {"params":{"filterBy":{"name":"","price":"","inStock":""},"sort":{"by":"name","asc":"true"}}} 
+31.3.2024, 8:35:28 - INFO - server.js loaded... 
+31.3.2024, 8:35:28 - INFO - Server is running on port:4040 
